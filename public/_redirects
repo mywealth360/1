@@ -1,0 +1,15 @@
+/* /index.html 200
+
+# Main routes
+/clube-de-robos /clube-de-robos 200
+/robots /clube-de-robos 301
+/estrategias /estrategias 200
+/copy-trade /copy-trade 200
+/copy-invest /copy-trade 301
+/mesa-proprietaria /mesa-proprietaria 200
+/comunidade /comunidade 200
+/members/* /members/:splat 200
+/obrigado /obrigado 200
+
+# Webhook route
+/webhookstripepayment /webhookstripepayment 200

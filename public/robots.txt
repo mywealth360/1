@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://profitestrategista.com.br/sitemap.xml

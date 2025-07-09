@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/webhookstripepayment"
+  to = "/.netlify/functions/webhookstripepayment"
+  status = 200
+  force = true
